@@ -7,12 +7,12 @@ import { getStorage } from "firebase/storage";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDesvFcvjexNJavo2yPZiAL_AjUUYmQwMs",
-  authDomain: "bitpay-fddca.firebaseapp.com",
-  projectId: "bitpay-fddca",
-  storageBucket: "bitpay-fddca.appspot.com",
-  messagingSenderId: "275512799478",
-  appId: "1:275512799478:web:d7ae47b046413fa6bb7cd7",
+  apiKey: "AIzaSyARo4jXNEm9MTRiJwk2_xsd5Y4b7fg1F4g",
+  authDomain: "marathondigitalholdingcomp.firebaseapp.com",
+  projectId: "marathondigitalholdingcomp",
+  storageBucket: "marathondigitalholdingcomp.appspot.com",
+  messagingSenderId: "725046701224",
+  appId: "1:725046701224:web:a1ea532bdca9d917b9269d",
 };
 
 // Initialize Firebase
