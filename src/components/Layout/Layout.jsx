@@ -91,7 +91,7 @@ const Layout = (props) => {
             onClick={goHome}
             sx={{ p: 1, color: "#ffff", cursor: "pointer" }}
           >
-            Bitpay
+            marathon digital holding company
           </Typography>
         </Toolbar>
       </AppBar>

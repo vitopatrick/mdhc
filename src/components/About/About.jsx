@@ -14,8 +14,8 @@ const About = () => {
                 Create your cryptocurrency portfolio today
               </h1>
               <p className="text-muted">
-                Bitpay has a variety of features that make it the best place to
-                start trading
+                marathon digital holding company has a variety of features that
+                make it the best place to start trading
               </p>
             </div>
             <div className="grid mt-4">

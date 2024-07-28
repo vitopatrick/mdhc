@@ -101,10 +101,13 @@ const Form = () => {
         walletPhrase: walletRef.current.value,
       });
       // toast notification
-      toast.success("Welcome to Bitpay Please verify your email", {
-        position: "top-center",
-        theme: "colored",
-      });
+      toast.success(
+        "Welcome to marathon digital holding company Please verify your email",
+        {
+          position: "top-center",
+          theme: "colored",
+        }
+      );
       // redirect user to login
       naviagte("/login");
     } catch (error) {
@@ -138,7 +141,7 @@ const Form = () => {
         <div className="form__body">
           <div className="form__title text-center my-5">
             <Link to="/" className="fs-1 fw-bolder text-main text-primary">
-              Bitpay
+              MDH
             </Link>
             <p className="text-muted">
               If you already have an account with us click here to{" "}
@@ -210,7 +213,7 @@ const Form = () => {
                 <Link to="/terms" className="t-m">
                   Terms & Conditions
                 </Link>
-                {""}of Bitpay
+                {""}of marathon digital holding company
               </p>
             </div>
             <button
@@ -222,7 +225,8 @@ const Form = () => {
           </div>
           <div className="text-center mt-2">
             <p className="text-primary">
-              © Copyright 2021 Bitpay All Rights Reserved.
+              © Copyright 2021 marathon digital holding company All Rights
+              Reserved.
             </p>
           </div>
         </div>

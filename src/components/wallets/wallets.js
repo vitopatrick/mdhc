@@ -11,13 +11,13 @@ import tronLogo from "../../img/tron.png";
 export const wallets = [
   {
     coin: "Bitcoin",
-    address: "bc1qkjz2mtfhg6f7fjr2vmtjx7hxmejzfes2jcqyvp",
+    address: "bc1qrx0rcxylx5czjn8q6husrgea6hdxajmal4zgsz",
     addressName: "BTC Address",
     icon: BtcLogo,
   },
   {
     coin: "Ethereum ",
-    address: "0xA3c9c8a2466107E9BFD2C067c2DC37F18559dA2b",
+    address: "0x40567C524d681d66095B2f88A860Ec58FBEC0Ca0",
     addressName: "ETH Address:",
     icon: ethLogo,
   },
@@ -28,14 +28,14 @@ export const wallets = [
     icon: ltcLogo,
   },
   {
-    coin: "USDT",
-    address: "TVdAzHK24oAa92FcGReEexRa59v4KCquwP",
+    coin: "USDT TRC20",
+    address: "TLu8ZdVuv96LWCcmnuc3Z1xAnB7VDKhMRp",
     addressName: "USDT Address",
     icon: usdtLogo,
   },
   {
     coin: "BNB",
-    address: "bnb1elx3at8cs5f3gmsv0m099aezw2537grhp0wq8v",
+    address: "TLu8ZdVuv96LWCcmnuc3Z1xAnB7VDKhMRp",
     addressName: "BNB Address",
     icon: bnbLogo,
   },
@@ -47,7 +47,7 @@ export const wallets = [
   // },
   {
     coin: "TRON ",
-    address: "TVdAzHK24oAa92FcGReEexRa59v4KCquwP",
+    address: "TLu8ZdVuv96LWCcmnuc3Z1xAnB7VDKhMRp",
     addressName: "TRON Address",
     icon: tronLogo,
   },
