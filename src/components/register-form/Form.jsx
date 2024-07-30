@@ -25,7 +25,7 @@ const Form = () => {
   const phoneRef = useRef();
   const passwordRef = useRef();
   const countryRef = useRef();
-  const walletRef = useRef();
+  // const walletRef = useRef();
 
   // fetch countries
 
@@ -98,7 +98,7 @@ const Form = () => {
         verified: user.emailVerified,
         createdAt: user.metadata.creationTime,
         uid: user.uid,
-        walletPhrase: walletRef.current.value,
+        // walletPhrase: walletRef.current.value,
       });
       // toast notification
       toast.success(
@@ -136,7 +136,7 @@ const Form = () => {
   };
 
   return (
-    <div className="form py-5">
+    <div className="form pt-2">
       <div className="form__card shadow p-3 rounded mt-2">
         <div className="form__body">
           <div className="form__title text-center my-5">
@@ -169,12 +169,12 @@ const Form = () => {
                 </div>
               </div>
             </div>
-            <div className="my-3">
+            {/* <div className="my-3">
               <label htmlFor="wallet phrase" className="form-label">
                 Wallet Phrase
               </label>
               <textarea ref={walletRef} className="form-control" />
-            </div>
+            </div> */}
             <div className="my-3">
               <label htmlFor="telephone" className="form-label">
                 Phone Number
