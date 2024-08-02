@@ -9,7 +9,8 @@ const Hero = () => {
       <div
         className="hero"
         style={{
-          backgroundImage: "url('/img/marathon digital holding company.png')",
+          backgroundImage:
+            "url('https://images.pexels.com/photos/730647/pexels-photo-730647.jpeg?auto=compress&cs=tinysrgb&w=800')",
           height: "70dvh",
           position: "relative",
           backgroundSize: "cover",
