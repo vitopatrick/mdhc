@@ -45,7 +45,7 @@ const TransactionTabs = () => {
       </Panel>
       <Box sx={{ mt: 10 }}>
         <Typography variant="caption">
-          All Rights Reserved © marathon digital holding company 2022
+          All Rights Reserved © marathon digital holding company 2024
         </Typography>
       </Box>
     </Box>
