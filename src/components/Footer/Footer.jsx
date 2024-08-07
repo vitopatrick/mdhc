@@ -56,10 +56,7 @@ const Footer = () => {
             </div>
           </div> */}
           <div className="text-center mt-3">
-            <p>
-              COPYRIGHT © RESVERED marathon digital holding company 2014 -{" "}
-              {moment(new Date()).format("YYYY")}
-            </p>
+            <p>COPYRIGHT © RESERVED Marathon Digital Holding Company 2024</p>
           </div>
         </div>
       </footer>
