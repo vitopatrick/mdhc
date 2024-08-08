@@ -1,6 +1,6 @@
 import BtcLogo from "../../img/btc.png";
 import ethLogo from "../../img/eth.png";
-import ltcLogo from "../../img/ltc.png";
+import usdtLogo from "../../img/usdt.png";
 
 export const wallets = [
   {
@@ -14,8 +14,8 @@ export const wallets = [
     icon: ethLogo,
   },
   {
-    coin: "Litecoin",
-    addressName: "LTC Address",
-    icon: ltcLogo,
+    coin: "USDT",
+    addressName: "USDT Address",
+    icon: usdtLogo,
   },
 ];
