@@ -28,11 +28,8 @@ const Hero = () => {
                 Buy, store, swap and spend cryptocurrency all in one app. <br />{" "}
                 Turn Bitcoin into dollars. Earn cash back automatically.
               </p>
-              <div className="mt-4 d-flex flex-column flex-sm-row">
-                <Link
-                  to="/register"
-                  className="bg-white p-3 rounded me-4 flex-fill"
-                >
+              <div className="mt-4">
+                <Link to="/register" className="bg-white p-3 rounded me-4 ">
                   Register today
                 </Link>
               </div>

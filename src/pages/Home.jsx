@@ -10,6 +10,7 @@ import Reason from "../components/Reason/Reason";
 import Start from "../components/Start/Start";
 import Work from "../components/Work/Work";
 import Plan from "../components/Plan/Plan";
+import Testimonials from "../components/testimonials/Testimonials";
 
 const Home = () => {
   useEffect(() => {
@@ -42,6 +43,7 @@ const Home = () => {
       <Work />
       <Reason />
       <Plan />
+      <Testimonials />
       <Newsletter />
       <Footer />
     </React.Fragment>
