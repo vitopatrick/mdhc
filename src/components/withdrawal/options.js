@@ -10,12 +10,12 @@ export const options = [
     duration: "48hrs",
   },
   {
-    name: "Litecoin",
+    name: "USDT",
     minAmount: "$1000",
     duration: "48hrs",
   },
   {
-    name: "Shiba",
+    name: "TRON",
     minAmount: "$1000",
     duration: "48hrs",
   },
