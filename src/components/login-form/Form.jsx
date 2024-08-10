@@ -94,7 +94,11 @@ const Form = () => {
       <div className="form__card shadow rounded my-5 p-3">
         <div className="form__title text-center">
           <Link to="/" className="fs-1 fw-bolder text-main text-primary">
-            <img src="/logo.jpeg" alt="logo" className="logo" />
+            <img
+              src={require("../../img/logo.jpeg")}
+              alt="logo"
+              className="logo"
+            />
           </Link>
           <p>
             Click here to{" "}

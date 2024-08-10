@@ -32,7 +32,7 @@ const Testimonials = () => {
         <p className="text-center">Hear our reviews</p>
         <div className="box">
           {testimonials.map((testimony) => (
-            <div className="card">
+            <div className="card" key={testimony.author}>
               <p>{testimony.testimony}</p>
               <div>
                 <h6 className="name">{testimony.author}</h6>

@@ -141,7 +141,11 @@ const Form = () => {
         <div className="form__body">
           <div className="form__title text-center my-5">
             <Link to="/" className="fs-1 fw-bolder text-main text-primary">
-              <img src="/logo.jpeg" alt="company logo" className="logo" />
+              <img
+                src={require("../../img/logo.jpeg")}
+                alt="company logo"
+                className="logo"
+              />
             </Link>
             <p className="text-muted">
               If you already have an account with us click here to{" "}

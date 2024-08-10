@@ -19,7 +19,7 @@ const Plan = () => {
         <Container>
           <Grid container spacing={3}>
             {plans.map((plan) => (
-              <Grid item xs={12} md={4}>
+              <Grid item xs={12} md={4} key={plan.price}>
                 <Paper sx={{ p: 2 }}>
                   <Box>
                     <Typography
