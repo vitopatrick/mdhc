@@ -81,6 +81,12 @@ nav {
   height: 50px;
 }
 
+
+.logo {
+  width: 100px;
+  border-radius: 5px;
+}
+
 @media screen and (max-width: 780px) {
   .cta-1,
   .cta-2,

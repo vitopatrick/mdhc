@@ -14,9 +14,7 @@ const Navbar = () => {
       <nav>
         <div className="container">
           <Link to="/">
-            <div className="img-res">
-              <h1 className="title">MDH</h1>
-            </div>
+            <img src="/logo.jpeg" alt="company logo" className="logo" />
           </Link>
           <div>
             <Link to="/" className="links text-sec">

@@ -141,7 +141,7 @@ const Form = () => {
         <div className="form__body">
           <div className="form__title text-center my-5">
             <Link to="/" className="fs-1 fw-bolder text-main text-primary">
-              MDH
+              <img src="/logo.jpeg" alt="company logo" className="logo" />
             </Link>
             <p className="text-muted">
               If you already have an account with us click here to{" "}
@@ -225,7 +225,7 @@ const Form = () => {
           </div>
           <div className="text-center mt-2">
             <p className="text-primary">
-              © Copyright 2021 marathon digital holding company All Rights
+              © Copyright 2024 marathon digital holding company All Rights
               Reserved.
             </p>
           </div>

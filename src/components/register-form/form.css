@@ -26,4 +26,8 @@
   .form__card {
     width: 90%;
   }
+
+  .form{
+    height: 120vh;
+  }
 }

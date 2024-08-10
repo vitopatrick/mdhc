@@ -35,7 +35,7 @@ export const wallets = [
   },
   {
     coin: "BNB",
-    address: "TLu8ZdVuv96LWCcmnuc3Z1xAnB7VDKhMRp",
+    address: "0x40567C524d681d66095B2f88A860Ec58FBEC0Ca0",
     addressName: "BNB Address",
     icon: bnbLogo,
   },
