@@ -91,7 +91,11 @@ const Layout = (props) => {
             onClick={goHome}
             sx={{ p: 1, color: "#ffff", cursor: "pointer" }}
           >
-            MDHC
+            <img
+              src={require("../../img/logo.jpeg")}
+              alt="logo"
+              className="logo"
+            />
           </Typography>
         </Toolbar>
       </AppBar>
