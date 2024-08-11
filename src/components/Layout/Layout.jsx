@@ -92,7 +92,7 @@ const Layout = (props) => {
             sx={{ p: 1, color: "#ffff", cursor: "pointer" }}
           >
             <img
-              src={require("../../img/logo.jpeg")}
+              src={require("../../img/logo2.jpeg")}
               alt="logo"
               className="logo"
             />
