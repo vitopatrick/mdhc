@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
+import logo from "../../img/logo2.jpeg";
 import "./navbar.css";
 
 const Navbar = () => {
@@ -14,11 +15,7 @@ const Navbar = () => {
       <nav>
         <div className="container">
           <Link to="/">
-            <img
-              src={require("../../img/logo2.jpeg")}
-              alt="company logo"
-              className="logo"
-            />
+            <img src={logo} alt="company logo" className="logo" />
           </Link>
           <div>
             <Link to="/" className="links text-sec">

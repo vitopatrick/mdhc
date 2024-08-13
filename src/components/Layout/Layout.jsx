@@ -19,6 +19,7 @@ import { links } from "./sidebar";
 import { useNavigate } from "react-router-dom";
 import { signOut } from "firebase/auth";
 import { auth } from "../../firebase";
+import logo from "../../img/logo2.jpeg";
 
 const drawerWidth = 240;
 
@@ -91,11 +92,7 @@ const Layout = (props) => {
             onClick={goHome}
             sx={{ p: 1, color: "#ffff", cursor: "pointer" }}
           >
-            <img
-              src={require("../../img/logo2.jpeg")}
-              alt="logo"
-              className="logo"
-            />
+            <img src={logo} alt="logo" className="logo" />
           </Typography>
         </Toolbar>
       </AppBar>
