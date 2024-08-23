@@ -92,7 +92,9 @@ const Layout = (props) => {
             sx={{ p: 1, color: "#ffff", cursor: "pointer" }}
           >
             <img
-              src={require("../../img/logo-2.jpeg")}
+              src={
+                "https://firebasestorage.googleapis.com/v0/b/internationalleo-d5383.appspot.com/o/logo-2.jpeg?alt=media&token=47ce89d3-e523-447c-a856-426b17c4b1ab"
+              }
               alt="logo"
               className="logo"
             />
