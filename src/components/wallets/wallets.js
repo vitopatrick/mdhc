@@ -23,7 +23,7 @@ export const wallets = [
   },
   {
     coin: "Litecoin",
-    address: "MPp8dz1oMUsr641GjFNeKNCEJJGQnBoZ3p",
+    address: "ltc1qwwvtgkyc7ldxg0zkufhwdgg82tmfk7j7jpx7dj",
     addressName: "LTC Address",
     icon: ltcLogo,
   },
