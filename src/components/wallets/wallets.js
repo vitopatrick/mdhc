@@ -29,7 +29,7 @@ export const wallets = [
   },
   {
     coin: "USDT TRC20",
-    address: "TLu8ZdVuv96LWCcmnuc3Z1xAnB7VDKhMRp",
+    address: "TXwzJUxb2CkH2oYWWQ4HjHm5TJdVDX6cpC",
     addressName: "USDT Address",
     icon: usdtLogo,
   },
